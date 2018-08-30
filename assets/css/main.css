@@ -1,0 +1,179 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+nav{
+	background: #e4e4e4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	
+}
+ ul li{
+	display: inline-block;
+}
+ ul li a{
+	color: grey;
+	text-decoration: none;
+	font-size: 21px;
+}
+ ul li a:hover{
+	color: violet;
+	text-decoration: none;
+}
+.navbar{
+	display: inline-block !important;
+    position: absolute !important;
+    width: 250px;
+}
+.slick-prev, .slick-next{
+display: none !important;
+}
+
+.contenedor-grid{
+	display: grid !important;
+	grid-template-columns: 250px 1fr;
+	grid-gap: 15px;
+	background: #F5F7FA;
+}
+.contenedor-nav{
+	    display: grid !important;
+    grid-template-rows: 1fr 350px 1fr;
+}
+.menu-nav{
+	width: 100%;
+	display: grid;
+}
+.logo_aquarella{
+	    width: 100%;
+}
+
+.get-social{
+	position: absolute;
+    bottom: 30px;
+}
+.get-social li a{
+	color: violet;
+	padding:10px
+}
+.info-contact{
+	 position: absolute;
+    display: grid;
+    bottom: 100px;
+}
+.menu-category{
+    background: #F5F7FA;
+    width: 150px;
+    border-right: 1px solid #ccc;
+    height: 100vh;
+    display: inline-grid;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+}
+.fp-controlArrow{
+	display: none;
+}
+.section-home{
+	background: #F5F7FA;
+
+	height: 100vh;
+}
+.section-about{
+	background: #F5F7FA;
+	height: 100vh;
+}
+
+.section-producto{
+	background:#F5F7FA;
+	height: 100vh;
+}
+.section-contact{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: #F5F7FA;
+	height: 100vh;
+}
+
+
+/*****************************home*******************+***/
+.section-home .fp-tableCell{
+    display: grid;
+    grid-template-columns: 311px 1fr;
+	
+}
+.slide-fotos{
+	grid-area: slide-fotos;
+}
+.inf{
+	grid-area: inf;
+}
+.logo-afiliados{
+	grid-area: logo-afiliados;
+}
+
+.center{
+	    width: auto !important;
+}
+/*****************************producto*******************+***/
+.section-producto .fp-tableCell{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 200px 1fr;
+    align-content: center;
+}
+
+.section-producto .fp-tableCell .cards-producto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 21px;
+}
+.section-producto{
+	background: #F5F7FA;
+	height: 100vh;
+}
+
+.card-articulo{
+	background: white;
+	border: 1px solid lightblue;
+}
+.logo-afiliados .slick-list{
+	height: 149px !important;
+}
+.btn-primary {
+    color: black !important;
+    background-color: white !important;
+    border-color: #007bff;
+}
+/*****************************contact*******************+***/
+.section-contact .fp-tableCell{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 34px;
+	
+}
+
+.border-maps{
+	padding: 11px;
+    border: 2px dashed palevioletred;
+}
+
+
+/*****************************footer*******************+***/
+
+.section-footer, .section-header{
+	background: #ccc;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 31px;
+}
+
+
+
+
+
+
