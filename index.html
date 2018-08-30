@@ -29,19 +29,26 @@
 	  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 		 <ul id="myMenu" class="text-justify menu-nav"> 
 			<li class=" wow animate-box fadeInLeftBig animated-fast" data-animate-effect="fadeIn" data-wow-duration="1s" data-menuanchor="firstPage"><a href="#firstSection/firstPage">Inicio</a></li>
-			<li class="wow animate-box fadeInLeftBig animated-fast" data-animate-effect="fadeIn" data-wow-duration="1.4s" data-menuanchor="secondPage"><a href="#firstSection/secondPage">nosotros</a></li>
-			<li class=" wow animate-box fadeInLeftBig animated-fast" data-animate-effect="fadeIn" data-wow-duration="1.8s"data-menuanchor="thirdPage"><a href="#firstSection/thirdPage">productos</a></li>
-			<li class=" wow animate-box fadeInLeftBig animated-fast" data-animate-effect="fadeIn" data-wow-duration="2.2s" data-menuanchor="fourthPage"><a href="#firstSection/fourthPage">contacto</a></li>
+			<li class="wow animate-box fadeInLeftBig animated-fast" data-animate-effect="fadeIn" data-wow-duration="1.4s" data-menuanchor="secondPage"><a href="#firstSection/secondPage">Nosotros</a></li>
+			<li class=" wow animate-box fadeInLeftBig animated-fast" data-animate-effect="fadeIn" data-wow-duration="1.8s"data-menuanchor="thirdPage"><a href="#firstSection/thirdPage">Productos</a>
+			</li>
+			<li class=" wow animate-box fadeInLeftBig animated-fast" data-animate-effect="fadeIn" data-wow-duration="2.2s"data-menuanchor="thirdPage"><a data-toggle="collapse" data-target="#demo" href="">Categorias</a>
+
+				<ul id="demo" class="collapse">
+					<li><a href="#"> Blusas</a></li>
+					<li><a href="#"> Vestidos</a></li>
+					<li><a href="#"> Bragas</a></li>
+					<li><a href="#"> Pantalon</a></li>
+				</ul>
+			</li>
+			<li class=" wow animate-box fadeInLeftBig animated-fast" data-animate-effect="fadeIn" data-wow-duration="2.6s" data-menuanchor="fourthPage"><a href="#firstSection/fourthPage">Contacto</a></li>
 		</ul>
 	  </div>
 
 	</div>
 </nav>	
 <div class="informacion">
-	<div class="info-contact">
-		 <a href="tel: +584126521149"><strong>Telefono </strong> <span>0412-6521149 </span></a>
-         <a href="mailto:invie@gmail.com"><strong>Email</strong><span> invie@gmail.com</span></a>
-	</div>
+	
 
 <div>
 	<h3> GET SOCIAL</h3>
@@ -110,7 +117,7 @@
 
 
 			</section>
-			<!-- ***********************END SECTION ABOUT*************************** -->
+			<!-- ***********************END SECTION ABOUT***************************-->
 
 			<!-- ***********************SECTION PRODUCTO*************************** -->
 			<section class="slide section-producto" data-anchor="thirdPage">
@@ -191,15 +198,39 @@
 				<div class="border-maps">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15627.278347909096!2d-70.1994491302246!3d11.707187200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1535549678899" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>		
 				</div>
-				<div>
-					<h2>contact</h2>
+				<div class="form-style-5">
 					<form>
-						<input type="text" name="nombre">
-						<input type="text" name="nombre">
-						<input type="text" name="nombre">
-						<input type="text" name="nombre">
-						<input type="text" name="nombre">
-						<input type="text" name="nombre">
+					<fieldset>
+					<legend><span class="number">1</span> Info Aliado </legend>
+					<input type="text" name="field1" placeholder="Nombre *">
+					<input type="text" name="field2" placeholder="Telefono *">
+					<input type="email" name="field2" placeholder="Email *">
+					<input type="text" name="field2" placeholder="pais *">
+					<input type="text" name="field2" placeholder="ciudad *">
+					<label for="job">Nos Conocio Por:</label>
+					<select id="job" name="field4">
+					<optgroup label="Indoors">
+					  <option value="fishkeeping"> Redes Sociales</option>
+					  <option value="reading">En los Buscadores</option>
+					  <option value="boxing">Recomendacion po un Amigo</option>
+					  <option value="debate">Publicidad en Prensa</option>
+					</optgroup>
+					</select>      
+					<label for="job">Tipo de Negocio</label>
+					<select id="job" name="field4">
+					<optgroup label="Indoors">
+					  <option value="fishkeeping">Dueño de Negocio o Tienda</option>
+					  <option value="reading">Revendedores o Comerciate </option>
+					  <option value="boxing">Boxing</option>
+					  <option value="debate">Debate</option>
+					  <option value="gaming">Gaming</option>
+					  <option value="snooker">Snooker</option>
+					  <option value="other_indoor">Other</option>
+					</optgroup>
+					</select>      
+					</fieldset>
+				
+					<input type="submit" value="Apply" />
 					</form>
 				</div>
 
